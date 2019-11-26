@@ -4,3 +4,6 @@
 [submodule "books/github_basic"]
 	path = books/github_basic
 	url = https://github.com/lec-cafe/books_github_basic
+[submodule "books/laravelapi_practice"]
+	path = books/laravelapi_practice
+	url = https://github.com/lec-cafe/books_laravelapi_practice
