@@ -7,3 +7,6 @@
 [submodule "books/laravelapi_practice"]
 	path = books/laravelapi_practice
 	url = https://github.com/lec-cafe/books_laravelapi_practice
+[submodule "books/nuxtjs_practice"]
+	path = books/nuxtjs_practice
+	url = https://github.com/lec-cafe/books_nuxtjs_practice
