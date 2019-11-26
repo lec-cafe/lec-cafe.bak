@@ -10,4 +10,13 @@
 
 https://docs.google.com/spreadsheets/d/1lYk_0tCDxjAmFHjB6V3Eiflhw6eCJx7TA2jevTap1rM/edit#gid=835900849
 
+## 教材の追加
+
+`books_` 接頭辞でリポジトリを作成する。
+
+サブモジュールとしてリポジトリに追加する。
+
+```bash
+$ git submodule add https://github.com/lec-cafe/books_nuxtjs_practice books/nuxtjs_practice
+```
 
