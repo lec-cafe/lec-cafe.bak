@@ -10,3 +10,6 @@
 [submodule "books/nuxtjs_practice"]
 	path = books/nuxtjs_practice
 	url = https://github.com/lec-cafe/books_nuxtjs_practice
+[submodule "books/nuxtjs_firebase"]
+	path = books/nuxtjs_firebase
+	url = https://github.com/lec-cafe/books_nuxtjs_firebase
