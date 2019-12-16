@@ -1,14 +1,15 @@
-## サンプルコードの追加方法
 
-sample をコピーして資料を作成。
+## 資料の追加方法
+
+books をコピーして資料を作成。
 
 lec cafe の組織にアクセスしてリポジトリを作成
 
 https://github.com/lec-cafe
 
-- リポジトリ名は、`sample_` 接頭辞で作成する。
+- リポジトリ名は、`books_` 接頭辞で作成する。
 
-sample のフォルダにアクセスして、git init からリポジトリを有効化。
+books のフォルダにアクセスして、git init からリポジトリを有効化。
 
 git push してリポジトリにデータを登録する。
 
@@ -17,7 +18,7 @@ push し終わったら フォルダ名を .bak にして移動
 submodule コマンドを使ってリポジトリからデータを再取得する。
 
 ```bash
-$ git submodule add https://github.com/lec-cafe/sample_nuxtjs_firebase sample/nuxtjs_firebase
+$ git submodule add https://github.com/lec-cafe/books_nuxtjs_firebase books/nuxtjs_firebase
 ```
 
 同じものが取れてきたら .bak を削除
