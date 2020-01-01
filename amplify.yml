@@ -8,11 +8,14 @@ frontend:
     preBuild:
       commands:
         - pwd
-        - if [ “${AWS_BRANCH}” = “books_github_basic” ]; then cd ~/books/github_basic; fi
+        - ls ~/
+        - if [ “${AWS_BRANCH}” = “books_github_basic” ]; then cd books/github_basic; fi
         - nvm use $VERSION_NODE_12
         - yarn install
     build:
       commands:
+        - pwd
+        - ls ~/
         - ls
         - 'yarn run docs:build -d dist'
   artifacts:
