@@ -19,7 +19,7 @@ frontend:
         - ls
         - 'yarn run docs:build'
   artifacts:
-    baseDirectory: books/.vuepress/dist
+    baseDirectory: books/github_basic/books/.vuepress/dist
     files:
       - '**/*'
   cache:
