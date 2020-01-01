@@ -13,7 +13,7 @@ https://docs.google.com/spreadsheets/d/1lYk_0tCDxjAmFHjB6V3Eiflhw6eCJx7TA2jevTap
 
 ## 教材の追加
 
-`books_` 接頭辞でリポジトリを作成する。
+`sample_` 接頭辞でリポジトリを作成する。
 
 サブモジュールとしてリポジトリに追加する。
 
