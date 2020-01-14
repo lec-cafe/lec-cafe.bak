@@ -18,6 +18,7 @@ frontend:
         - yarn install
     build:
       commands:
+        - pwd
         - 'yarn run docs:build -d ../../dist'
   artifacts:
     baseDirectory: dist
