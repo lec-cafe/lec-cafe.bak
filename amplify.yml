@@ -19,6 +19,7 @@ frontend:
     build:
       commands:
         - pwd
+        - ls
         - 'yarn run docs:build -d ../../dist'
   artifacts:
     baseDirectory: dist
